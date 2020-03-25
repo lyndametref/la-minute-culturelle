@@ -97,7 +97,7 @@ DEFAULT_LANG = "fr"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "",
+    DEFAULT_LANG: "./fr",
     "en": "./en",
 }
 
@@ -295,8 +295,8 @@ TIMEZONE = "Europe/Zurich"
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
     "markdown": ('.md', '.mdown', '.markdown'),
+    "rest": ('.rst', '.txt'),
     "textile": ('.textile',),
     "txt2tags": ('.t2t',),
     "bbcode": ('.bb',),
@@ -327,16 +327,16 @@ COMPILERS = {
 # "YAML": YAML wrapped in "---"
 # "TOML": TOML wrapped in "+++"
 # "Pelican": Native markdown metadata or reST docinfo fields. Nikola style for other formats.
-# METADATA_FORMAT = "Nikola"
+METADATA_FORMAT = "YAML"
 
 # Use date-based path when creating posts?
 # Can be enabled on a per-post basis with `nikola new_post -d`.
 # The setting is ignored when creating pages.
-# NEW_POST_DATE_PATH = False
+NEW_POST_DATE_PATH = True
 
 # What format to use when creating posts with date paths?
 # Default is '%Y/%m/%d', other possibilities include '%Y' or '%Y/%m'.
-# NEW_POST_DATE_PATH_FORMAT = '%Y/%m/%d'
+NEW_POST_DATE_PATH_FORMAT = '%Y/%m'
 
 # If this is set to True, the DEFAULT_LANG version will be displayed for
 # untranslated posts.
@@ -347,7 +347,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-# LOGO_URL = ''
+LOGO_URL = 'images/logo.png'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.

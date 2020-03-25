@@ -17,7 +17,6 @@ Ssh key for authentication on server must be configured
 
     nikola deploy
 
-
 To check all available commands::
 
     nikola help
