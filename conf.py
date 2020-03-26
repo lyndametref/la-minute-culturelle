@@ -97,7 +97,7 @@ DEFAULT_LANG = "fr"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
-    DEFAULT_LANG: "./fr",
+    DEFAULT_LANG: "",
     "en": "./en",
 }
 
@@ -347,7 +347,7 @@ NEW_POST_DATE_PATH_FORMAT = '%Y/%m'
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-LOGO_URL = 'images/logo.png'
+# LOGO_URL = 'images/logo.png'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
