@@ -11,4 +11,4 @@ type: text
 
 Aujourd'hui, dans la Minute Culturelle, on découvre tout sur Heraclès, c'est à dire Hercule, enfin vous savez qui!
 
-.. youtube:: 0qkSTvRQa8
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/R0qkSTvRQa8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

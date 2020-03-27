@@ -12,4 +12,4 @@ type: text
 Aujourd'hui, dans la Minute Culturelle , une mise en abîme de notre pandémie, en jetant un oeil à celle qui a décimé l'Europe au Moyen-Âge.
 
 
-.. youtube:: fbKCnLt1o-I
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fbKCnLt1o-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
