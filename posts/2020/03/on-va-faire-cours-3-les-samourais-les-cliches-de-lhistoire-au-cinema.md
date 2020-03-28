@@ -9,7 +9,7 @@ title: 'ON VA FAIRE COURS #3 : Les Samouraïs - Les clichés de l''Histoire au c
 type: text
 ---
 
-A) des guerriers qui sauve la veuve et l'orphelin
+A) Des guerriers qui sauvent la veuve et l'orphelin
 B) Une sauce Kebab
 C) C'est compliqué
 
