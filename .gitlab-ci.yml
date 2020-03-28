@@ -1,7 +1,7 @@
 image: 'python:3.7-buster'
 
 before_script:
-  - ping6 -c2 mad-scientists.net
+  - ping -c2 mad-scientists.net
   - host mad-scientists.net
   - pip install --upgrade "Nikola[extras]"
   - apt-get update
