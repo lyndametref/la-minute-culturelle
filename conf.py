@@ -643,7 +643,7 @@ REDIRECTIONS = []
 # }
 DEPLOY_COMMANDS = {
     'default': [
-        "rsync -av -6 --delete output/ lyly@mad-scientists.net:/srv/KriekData1/net.mad-scientists/la-minute-culturelle",
+        "rsync -av --delete output/ lyly@mad-scientists.net:/srv/KriekData1/net.mad-scientists/la-minute-culturelle",
         ]
 }
 
