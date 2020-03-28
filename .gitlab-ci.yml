@@ -12,4 +12,4 @@ before_script:
 build-and-deploy:
   script:
     - nikola build
-    - rsync -av --delete output/ lyly@mad-scientists.net:/srv/KriekData1/net.mad-scientists/la-minute-culturelle
+    - rsync -av --delete --port 7658 output/ lyly@mad-scientists.net:/srv/KriekData1/net.mad-scientists/la-minute-culturelle
