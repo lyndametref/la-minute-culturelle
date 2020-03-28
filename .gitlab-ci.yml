@@ -1,0 +1,11 @@
+image: 'python:3.7-buster'
+
+before_script:
+  - pip install --upgrade "Nikola"
+  - apt-get update
+  - apt-get install --assume-yes rsync
+
+build-and-deploy:
+  script:
+    - nikola build
+    - nikola deploy
