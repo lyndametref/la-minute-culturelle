@@ -12,4 +12,4 @@ before_script:
 build-and-deploy:
   script:
     - nikola build
-    - nikola deploy
+    - rsync -av --delete output/ lyly@mad-scientists.net:/srv/KriekData1/net.mad-scientists/la-minute-culturelle
