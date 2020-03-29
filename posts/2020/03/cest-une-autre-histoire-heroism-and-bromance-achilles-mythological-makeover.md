@@ -1,10 +1,12 @@
 ---
 category: ''
-date: 2020-03-30 17:00:00 UTC+01:00
+date: 2020-03-30 17:00:00 UTC+02:00
 description: "Un héro ou un dieu? Je vous laisse le découvrir!"
 link: ''
 slug: cest-une-autre-histoire-heroism-and-bromance-achilles-mythological-makeover
 title: 'C''est une autre histoire - Heroism and Bromance: Achilles, mythological makeover'
+references:
+    - https://youtu.be/AufD7TCMYGw
 type: text
 ---
 

@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-03-31 17:00:00 UTC+01:00
+date: 2020-03-31 17:00:00 UTC+02:00
 description: La prochaine fois que vous passez une journée de merde au taf, vous saurez qu'il y a pire!
 link: ''
 slug: nota-bene-34-les-pires-jobs-de-lhistoire

@@ -6,6 +6,8 @@ link: ''
 slug: monsieur-phi-ethique-medicale-au-temps-du-covid-19
 tags: ''
 title: Monsieur Phi - Éthique médicale au temps du COVID-19
+references:
+    - https://youtu.be/CaaEGtFH4FE
 type: text
 ---
 

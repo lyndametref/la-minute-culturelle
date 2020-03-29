@@ -98,7 +98,7 @@ DEFAULT_LANG = "fr"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-#    "en": "./en",
+    #    "en": "./en",
 }
 
 # What will translated input files be named like?
@@ -233,7 +233,6 @@ PAGES = (
     ("pages/*.txt", "pages", "page.tmpl"),
     ("pages/*.html", "pages", "page.tmpl"),
 )
-
 
 # Below this point, everything is optional
 
@@ -643,10 +642,9 @@ REDIRECTIONS = []
 # }
 DEPLOY_COMMANDS = {
     'default': [
-        "rsync -av --delete output/ lyly@mad-scientists.net:/srv/KriekData1/net.mad-scientists/la-minute-culturelle",
-        ]
+        'rsync -av --delete -e "ssh -p 7658" output/ lyly@mad-scientists.net:/srv/KriekData1/net.mad-scientists/la-minute-culturelle',
+    ]
 }
-
 
 # github_deploy configuration
 # For more details, read the manual:
