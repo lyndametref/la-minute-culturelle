@@ -14,5 +14,5 @@ before_script:
 build-and-deploy:
   script:
     - nikola build
-    - rsync -av --delete -e "ssh -p 7658 " output/ lyly@mad-scientists.net:/srv/KriekData1/net.mad-scientists/la-minute-culturelle
+    - nikola deploy
     - if [[ ! -z "${ANNOUNCE_HOOK}" ]]; then nikola announce -u  $ANNOUNCE_HOOK; fi
