@@ -1,0 +1,1 @@
+../../../nikola-announce/announce.py
