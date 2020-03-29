@@ -13,4 +13,4 @@ La première croisade semble être un moment épique de l'histoire de la chétie
 
 Are we cool? (☞ﾟヮﾟ)☞
 
-~~~~<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLhyKYa0YJ_5BH8o5Uk2FI_sHekdS6uIkH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLhyKYa0YJ_5BH8o5Uk2FI_sHekdS6uIkH" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
