@@ -37,4 +37,4 @@ class CommandServe(Command):
 
         webhook = DiscordWebhook(url=options['discord-webhook-url'], content=content_str)
         response = webhook.execute()
-        return response
+        return 0
