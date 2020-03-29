@@ -1,1 +1,12 @@
-../../../nikola-announce/announce.plugin
+[Core]
+Name = announce
+Module = announce
+
+[Documentation]
+Author = Lynda Metref & Etienne Dysli Metref
+Version = 0.1
+Website = https://getnikola.com/
+Description = Announce today's post on various services using webhooks
+
+[Nikola]
+PluginCategory = Command
