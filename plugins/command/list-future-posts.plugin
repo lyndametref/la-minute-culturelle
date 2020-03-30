@@ -1,0 +1,12 @@
+[Core]
+Name = list-future-posts
+Module = list-future-posts
+
+[Documentation]
+Author = Lynda Metref & Etienne Dysli Metref
+Version = 0.1
+Website = https://getnikola.com/
+Description = List all posts' address
+
+[Nikola]
+PluginCategory = Command
