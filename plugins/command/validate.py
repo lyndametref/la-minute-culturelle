@@ -35,6 +35,6 @@ class CommandServe(Command):
             has_description = len(post.description()) > 0
             return has_reference & has_description
 
-        [print(validate(x), x.title()) for x in self.site.timeline]
+        [print(validate(x), x.title()) for x in self.site.timeline if x.date.date() >= datetime.today().date()]
 
         return 0
