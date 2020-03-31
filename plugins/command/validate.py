@@ -1,8 +1,6 @@
 from nikola.plugin_categories import Command
-from nikola.post import get_meta
 from datetime import datetime
-from discord_webhook import DiscordWebhook, DiscordEmbed
-
+from nikola.post import get_meta
 
 # You have to inherit Command for this to be a
 # command plugin:
