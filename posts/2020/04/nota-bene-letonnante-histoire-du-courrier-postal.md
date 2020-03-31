@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-04-09 17:00:00 UTC+02:00
+date: 2020-04-15 17:00:00 UTC+02:00
 description: C'est pas écrit la poste là!
 link: ''
 slug: nota-bene-letonnante-histoire-du-courrier-postal
