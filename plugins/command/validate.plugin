@@ -1,0 +1,12 @@
+[Core]
+Name = validate
+Module = validate
+
+[Documentation]
+Author = Lynda Metref & Etienne Dysli Metref
+Version = 0.1
+Website = https://getnikola.com/
+Description = Validate that all needed fields are filled
+
+[Nikola]
+PluginCategory = Command
