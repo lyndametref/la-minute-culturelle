@@ -6,7 +6,7 @@ link: ''
 slug: nota-bene-35-les-morts-epiques-de-lhistoire
 tags: ''
 title: Nota bene 35 - Les morts épiques de l'histoire
-reference:
+references:
     - https://youtu.be/LQLlcl76mdg
 type: text
 ---

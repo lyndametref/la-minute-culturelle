@@ -1,7 +1,7 @@
 ---
 category: ''
 date: 2020-04-06 17:00:00 UTC+02:00
-description: 
+description: A regarder si vous voulez devenir Youtubeurs.
 link: ''
 slug: dirty-biology-47-les-youtubeurs-et-leurs-problemes-psychologiques
 tags: ''
