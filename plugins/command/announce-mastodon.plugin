@@ -1,0 +1,12 @@
+[Core]
+Name = announce-mastodon
+Module = announce-mastodon
+
+[Documentation]
+Author = Lynda Metref & Etienne Dysli Metref
+Version = 0.1
+Website = https://getnikola.com/
+Description = Announce today's post(s) on Mastodon
+
+[Nikola]
+PluginCategory = Command
