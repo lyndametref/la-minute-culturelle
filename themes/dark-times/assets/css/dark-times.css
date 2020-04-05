@@ -29,13 +29,25 @@ a:hover {
     color: var(--gray);
     text-decoration: underline;
 }
-a.text-dark {
+
+#blog-title {
     color: var(--light-gray) !important;
     font-size: 3rem;
+    font-weight: 700;
 }
-a.text-dark:focus, a.text-dark:hover {
+#blog-title:focus, #blog-title:hover {
     color: var(--gray) !important;
 }
+
+#blog-description {
+    color: var(--light-gray) !important;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+#blog-description:focus, #blog-description:hover {
+    color: var(--gray) !important;
+}
+
 
 .bg-white {
     background-color: var(--dark-gray) !important;
