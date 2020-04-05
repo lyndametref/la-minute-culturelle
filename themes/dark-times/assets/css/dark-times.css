@@ -47,3 +47,32 @@ a.text-dark:focus, a.text-dark:hover {
 .navbar-light .navbar-nav .nav-link {
     color: var(--light-gray);
 }
+
+ul.pager {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    padding-left: 0;
+    margin: 2rem 0;
+}
+
+ul.pager li.previous {
+    margin-right: auto;
+    display: inline;
+}
+
+ul.pager li.next {
+    margin-left: auto;
+    display: inline;
+}
+
+ul.pager li a {
+    display: inline;
+    position: relative;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+}
