@@ -1,8 +1,8 @@
 ---
 category: ''
 date: 2020-04-10 17:00:00 UTC+02:00
-description: Aujourd'hui, ma période préférée de l'histoire du Japon: Segoku Jidai. En route pour découvrir l'épopée des trois
- grands réunificateurs du Japon! 
+description: "Aujourd'hui, ma période préférée de l'histoire du Japon: Segoku Jidai. En route pour découvrir l'épopée des trois
+ grands réunificateurs du Japon!" 
 link: ''
 slug: extra-history-japan-sengoku-jidai
 tags: ''
