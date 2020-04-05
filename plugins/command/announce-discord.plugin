@@ -1,12 +1,12 @@
 [Core]
-Name = announce
-Module = announce
+Name = announce-discord
+Module = announce-discord
 
 [Documentation]
 Author = Lynda Metref & Etienne Dysli Metref
 Version = 0.1
 Website = https://getnikola.com/
-Description = Announce today's post on various services using webhooks
+Description = Announce today's post on Discord using webhooks
 
 [Nikola]
 PluginCategory = Command

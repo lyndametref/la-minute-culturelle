@@ -8,5 +8,5 @@ build-and-deploy:
   script:
     - nikola build
     - nikola deploy
-    - if [[ ! -z "${ANNOUNCE_HOOK}" ]]; then nikola announce -u  $ANNOUNCE_HOOK; fi
+    - if [[ ! -z "${ANNOUNCE_HOOK}" ]]; then nikola announce-discord -u  $ANNOUNCE_HOOK; fi
     - if [[ ! -z "${MASTODON_TOKEN}" ]]; then nikola announce-mastodon -t  "$MASTODON_TOKEN" -n "https://floss.social"; fi

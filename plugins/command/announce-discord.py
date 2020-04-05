@@ -10,9 +10,9 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 class CommandServe(Command):
     """Announce today's post on various services using webhooks"""
 
-    name = "announce"
+    name = "announce-discord"
     doc_usage = "[options]"
-    doc_purpose = "announce today's post on various services using webhooks"
+    doc_purpose = "announce today's post on Discord using webhooks"
 
     cmd_options = (
         {
@@ -26,7 +26,7 @@ class CommandServe(Command):
     )
 
     def _execute(self, options, args):
-        """Announce today's post on various services using webhooks"""
+        """Announce today's post on Discord using webhooks"""
         self.site.scan_posts()
         today_post = [x for x in self.site.timeline if x.date.date() == datetime.today().date()]
         meta = get_meta(today_post[0], 'fr')
