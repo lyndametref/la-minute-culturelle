@@ -139,13 +139,11 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archives"),
-        ("/categories/", "Étiquettes"),
         ("/rss.xml", "Flux RSS"),
     ),
 
     "en": (
-        ("/en/archive.html", "Archive"),
-        ("/en/categories/", "Tags"),
+        ("/en/archive.html", "Archives"),
         ("/en/rss.xml", "RSS feed"),
     ),
 }
@@ -158,7 +156,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "dark-times"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
@@ -172,21 +170,22 @@ THEME_COLOR = '#5670d4'
 THEME_CONFIG = {
     DEFAULT_LANG: {
         # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': True,
+        'featured_large': False,
         # Show the first (remaining) two featured posts in small boxes.
         'featured_small': False,
         # Show featured posts on mobile.
-        'featured_on_mobile': True,
+        'featured_on_mobile': False,
         # Show image in `featured_large` on mobile.
         # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
+        'featured_large_image_on_mobile': False,
         # Strip HTML from featured post text.
         'featured_strip_html': False,
         # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
+        'sidebar': '<img src=/images/avatar.png id="avatar" alt="Onéira" width=64px> <br/>Salut à tous!! Bienvenue '
+                   'dans "La minute culturelle", le site où je vous propose chaque jour une capsule vidéo/audio ('
+                   'FR/EN) culturelle mais néamoins divertissante pour occuper vos soirées de confinement!'
     }
 }
-
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 # (translatable)
 #
@@ -346,7 +345,7 @@ NEW_POST_DATE_PATH_FORMAT = '%Y/%m'
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-# LOGO_URL = 'images/logo.png'
+# LOGO_URL = '/images/logo.png'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -1293,7 +1292,7 @@ SHOW_SOURCELINK = False
 # Bundle JS and CSS into single files to make site loading faster in a HTTP/1.1
 # environment but is not recommended for HTTP/2.0 when caching is used.
 # Defaults to True.
-# USE_BUNDLES = True
+USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
 DISABLED_PLUGINS = ["robots"]
