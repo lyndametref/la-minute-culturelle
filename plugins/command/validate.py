@@ -7,15 +7,25 @@ from nikola.post import get_meta
 # command plugin:
 
 class CommandServe(Command):
-    """Announce today's post on various services using webhooks"""
+    """List all posts' address (local server) and validation status"""
 
-    name = "list-future-posts"
+    name = "validate"
     doc_usage = "[options]"
-    doc_purpose = "List all future posts' address (local server)"
+    doc_purpose = "List all posts' address (local server) and validation status"
 
+    cmd_options = (
+        {
+            'name': 'future-only',
+            'short': 'f',
+            'long': 'future-only',
+            'type': bool,
+            'default': False,
+            'help': 'Validate future posts only',
+        },
+    )
+    
     def _execute(self, options, args):
         """List all posts' address"""
-        self.site.scan_posts()
 
         def validate(post):
             meta = get_meta(post, 'fr')
@@ -34,10 +44,17 @@ class CommandServe(Command):
             else:
                 return str(date.date())
 
+        self.site.scan_posts()
+
+        print(options['future-only'])
+        if options['future-only']:
+            to_validate = [x for x in self.site.timeline if x.date.date() >= datetime.today().date()]
+        else:
+            to_validate = self.site.timeline
+
         [print(validate(x), " ",
                color_today_tomorrow(x.date),
                " http://127.0.0.1:8000", x.permalink(), sep='')
-         for x in self.site.timeline
-         if x.date.date() >= datetime.today().date()]
+         for x in to_validate]
 
         return 0

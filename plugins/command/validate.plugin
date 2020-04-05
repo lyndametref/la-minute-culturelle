@@ -1,6 +1,6 @@
 [Core]
-Name = list-future-posts
-Module = list-future-posts
+Name = validate
+Module = validate
 
 [Documentation]
 Author = Lynda Metref & Etienne Dysli Metref
