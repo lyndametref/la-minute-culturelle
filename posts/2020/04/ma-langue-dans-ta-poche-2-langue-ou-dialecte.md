@@ -11,6 +11,4 @@ references:
 type: text
 ---
 
-Le vaudois, c'est une langue ou un dialect? ou bien?
-
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VCJ_chtaUkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

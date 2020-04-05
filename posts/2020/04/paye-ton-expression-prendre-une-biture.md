@@ -11,6 +11,4 @@ references:
 type: text
 ---
 
-Un peu d'étymologie pour lancer le week end et ouvrir une petite bouteille... 
-
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bSgyjU9JQf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

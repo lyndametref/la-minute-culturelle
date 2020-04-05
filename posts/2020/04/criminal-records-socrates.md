@@ -12,6 +12,4 @@ references:
 type: text
 ---
 
-Pour découvrir la vie et l'oeuvre d'un sacré fouteur. Et pourquoi ce n'est pas toujours une bonne idée de l'être...
-
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/11351321/height/360/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/000000/" height="360" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>

@@ -10,6 +10,5 @@ references:
     - https://youtu.be/Y3EoAizjvtc
 type: text
 ---
-Aujourd'hui un peu de linguistique. Parce que la manière dont on parle est une partie de nous!
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y3EoAizjvtc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

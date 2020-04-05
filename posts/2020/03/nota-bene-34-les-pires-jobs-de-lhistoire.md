@@ -11,6 +11,4 @@ references:
 type: text
 ---
 
-La prochaine fois que vous passez une journée de merde au taf, vous saurez qu'il y a pire!
-
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1INohZeo-mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

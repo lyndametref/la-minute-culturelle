@@ -31,7 +31,7 @@
 <article class="post-${post.meta('type')} h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
     ${pheader.html_post_header()}
     <div class="e-content entry-content" itemprop="articleBody text">
-    ${post.description()}
+    <p>${post.description()}</p>
     ${post.text()}
     </div>
     <aside class="postpromonav">

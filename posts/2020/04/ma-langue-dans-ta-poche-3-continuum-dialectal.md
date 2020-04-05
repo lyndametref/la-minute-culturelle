@@ -11,6 +11,4 @@ references:
 type: text
 ---
 
-Après la definition d'un dialect, départ pour le hard mode et découvrons le continuum dialectal:
-
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IY4ONx7QQhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

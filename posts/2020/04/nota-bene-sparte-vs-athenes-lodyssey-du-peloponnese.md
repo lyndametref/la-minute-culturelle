@@ -10,6 +10,5 @@ references:
     - https://youtu.be/OXmZL5htLwA
 type: text
 ---
-This is Madness... ou juste de l'histoire, de la bonne et ... un chouette jeu :)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OXmZL5htLwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -182,7 +182,7 @@ THEME_CONFIG = {
         'featured_strip_html': False,
         # Contents of the sidebar, If empty, the sidebar is not displayed.
         'sidebar': '<img src=/images/avatar.png id="avatar" alt="Onéira" width=64px> <br/>Salut à tous!! Bienvenue '
-                   'dans "La minute culturelle", le site où je vous propose chaque jour une capsule vidéo/audio ('
+                   'dans "La minute culturelle", le site où je vous link chaque jour une capsule vidéo/audio ('
                    'FR/EN) culturelle mais néamoins divertissante pour occuper vos soirées de confinement!'
     }
 }
