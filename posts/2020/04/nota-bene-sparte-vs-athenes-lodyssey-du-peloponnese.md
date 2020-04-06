@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-04-08 17:00:00 UTC+02:00
+date: 2020-04-11 17:00:00 UTC+02:00
 description: This is Madness... ou juste de l'histoire, de la bonne :)
 link: ''
 slug: nota-bene-sparte-vs-athenes-lodyssey-du-peloponnese
