@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-04-10 17:00:00 UTC+02:00
+date: 2020-04-07 17:00:00 UTC+02:00
 description: "Aujourd'hui, ma période préférée de l'histoire du Japon: Segoku Jidai. En route pour découvrir l'épopée des trois
  grands réunificateurs du Japon!" 
 link: ''

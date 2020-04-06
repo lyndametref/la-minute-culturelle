@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-04-07 17:00:00 UTC+02:00
+date: 2020-04-10 17:00:00 UTC+02:00
 description: Retour dans ce moment charnière de l'histoire romaine.
 link: ''
 slug: extra-history-the-punic-wars
