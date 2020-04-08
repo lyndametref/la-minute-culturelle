@@ -1,6 +1,6 @@
 ---
 date: 2020-04-08 17:00:00 UTC+02:00
-description: Ajourd'hui un zoom sur la période des trois royaume, qui inspira la Romance des trois royaume, une des
+description: Aujourd'hui un zoom sur la période des trois royaume, qui inspira la Romance des trois royaumes, une des
  plus grandes oeuvres de la littérature chinoise. 
 link: ''
 slug: les-trois-royaumes-de-chine

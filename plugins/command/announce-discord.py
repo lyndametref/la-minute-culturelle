@@ -33,6 +33,7 @@ class CommandServe(Command):
         content = list([today_post[0].title()])
         content.append(today_post[0].description())
         [content.append(x) for x in meta[0]['references']]
+        content.append('archives: https://www.mad-scientists.net/la-minute-culturelle/')
         content_str = "\n".join(content)
 
         webhook = DiscordWebhook(url=options['discord-webhook-url'], content=content_str)
