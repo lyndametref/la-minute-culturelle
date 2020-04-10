@@ -12,4 +12,4 @@ references:
 type: text
 ---
 
-<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/11351321/height/360/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/000000/" height="360" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/11351321/height/360/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/000000/" height="360" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
