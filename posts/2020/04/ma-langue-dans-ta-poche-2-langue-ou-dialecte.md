@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-04-12 17:00:00 UTC+02:00
+date: 2020-04-11 17:00:00 UTC+02:00
 description: Le vaudois, c'est une langue ou un dialect? ou bien?
 link: ''
 slug: ma-langue-dans-ta-poche-2-langue-ou-dialecte
