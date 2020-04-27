@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-05-02 17:00:00 UTC+02:00
+date: 2020-05-01 17:00:00 UTC+02:00
 description: Parce que oublier c'est risquer de refaire les erreurs du passé...
 link: ''
 slug: lhistoire-nous-le-dira-racisme-ses-origines-son-histoire

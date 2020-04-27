@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-05-01 17:00:00 UTC+02:00
+date: 2020-05-06 17:00:00 UTC+02:00
 description: Un petit mal de tête? Un coup de hache résoud tous vos problème!
 link: ''
 slug: cest-une-autre-histoire-guerre-et-sagesse-athena-le-relooking-mythologique-2
