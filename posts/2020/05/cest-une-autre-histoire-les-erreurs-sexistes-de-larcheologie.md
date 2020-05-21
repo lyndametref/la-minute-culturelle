@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2020-05-16 17:00:00 UTC+02:00
+date: 2020-05-23 17:00:00 UTC+02:00
 description: Femme de pouvoir au paléolitique? Sans dec!
 link: ''
 slug: cest-une-autre-histoire-les-erreurs-sexistes-de-larcheologie
