@@ -29,13 +29,14 @@ class CommandServe(Command):
         """Announce today's post on Discord using webhooks"""
         self.site.scan_posts()
         today_post = [x for x in self.site.timeline if x.date.date() == datetime.today().date()]
-        meta = get_meta(today_post[0], 'fr')
-        content = list([today_post[0].title()])
-        content.append(today_post[0].description())
-        [content.append(x) for x in meta[0]['references']]
-        content.append('archives: https://www.mad-scientists.net/la-minute-culturelle/')
-        content_str = "\n".join(content)
+        if len(today_post) > 0:
+            meta = get_meta(today_post[0], 'fr')
+            content = list([today_post[0].title()])
+            content.append(today_post[0].description())
+            [content.append(x) for x in meta[0]['references']]
+            content.append('archives: https://www.mad-scientists.net/la-minute-culturelle/')
+            content_str = "\n".join(content)
 
-        webhook = DiscordWebhook(url=options['discord-webhook-url'], content=content_str)
-        response = webhook.execute()
+            webhook = DiscordWebhook(url=options['discord-webhook-url'], content=content_str)
+            response = webhook.execute()
         return 0

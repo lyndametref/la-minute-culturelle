@@ -4,7 +4,6 @@ from datetime import datetime
 from mastodon import Mastodon
 
 
-
 # You have to inherit Command for this to be a
 # command plugin:
 
@@ -38,18 +37,19 @@ class CommandServe(Command):
         """Announce today's post on Mastodon"""
         self.site.scan_posts()
         today_post = [x for x in self.site.timeline if x.date.date() == datetime.today().date()]
-        meta = get_meta(today_post[0], 'fr')
-        content = list([today_post[0].title()])
-        content.append(today_post[0].description())
-        [content.append(x) for x in meta[0]['references']]
-        content.insert(0,'#laminuteculturelle')
-        content.append('archives: https://www.mad-scientists.net/la-minute-culturelle/')
-        content_str = "\n".join(content)
+        if len(today_post) > 0:
+            meta = get_meta(today_post[0], 'fr')
+            content = list([today_post[0].title()])
+            content.append(today_post[0].description())
+            [content.append(x) for x in meta[0]['references']]
+            content.insert(0, '#laminuteculturelle')
+            content.append('archives: https://www.mad-scientists.net/la-minute-culturelle/')
+            content_str = "\n".join(content)
 
-        mastodon = Mastodon(
-            access_token=options['mastodon-token'],
-            api_base_url=options['mastodon-node']
-        )
-        mastodon.toot(content_str)
+            mastodon = Mastodon(
+                access_token=options['mastodon-token'],
+                api_base_url=options['mastodon-node']
+            )
+            mastodon.toot(content_str)
 
         return 0
