@@ -4,11 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-discord-webhook = "*"
 nikola = "*"
+discord-webhook = "*"
 "mastodon.py" = "*"
+"ruamel.yaml" = "*"
+aiohttp = "*"
+watchdog = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
