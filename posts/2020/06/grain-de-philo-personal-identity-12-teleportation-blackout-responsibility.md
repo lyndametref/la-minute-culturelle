@@ -5,7 +5,7 @@ description: Ca a l'air vraiment pratique!
 link: ''
 slug: grain-de-philo-personal-identity-12-teleportation-blackout-responsibility
 tags: ''
-title: Grain de Philo - PERSONAL IDENTITY 1/2 - Teleportation, blackout & responsibility
+title: Grain de Philo - Identité personelle 1/2 - Téléportation, trou de mémoire & responsabilité
 type: text
 references:
     - https://youtu.be/EZmvdkNjev8

@@ -5,7 +5,7 @@ description: 'Peut être pas en fait'
 link: ''
 slug: grain-de-philo-personal-identity-22-teleportation-blackout-responsibility
 tags: ''
-title: Grain de Philo - PERSONAL IDENTITY 2/2 - Teleportation, blackout & responsibility
+title: Grain de Philo - Identité personelle 2/2 - Téléportation, trou de mémoire & responsabilité
 type: text
 references:
     - https://youtu.be/HPWQufM2sAg
